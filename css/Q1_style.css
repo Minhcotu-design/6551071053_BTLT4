@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Times New Roman", serif;
+}
+
+.header {
+    background-color: pink;
+    text-align: center;
+    font-size: 4vw;   
+    color: red;
+    font-weight: bold;
+    padding: 2vh;
+}
+
+.poem {
+    background-color: #ffffcc;
+    flex: 1;
+    padding: 4vh;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 3vh; 
+}
+
+.poem p {
+    font-size: 1.8vw;
+    line-height: 1.6;
+}
+
+.blue { color: blue; }
+.pink { color: deeppink; }
+.green { color: green; }
+
+hr {
+    width: 25%;
+    margin: 0 auto;
+}

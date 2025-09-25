@@ -1,0 +1,32 @@
+body {
+    font-family: "Times New Roman", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+.box {
+    border: 2px solid black;   /* khung rõ ràng */
+    padding: 20px 40px;
+    background: white;
+    text-align: left;
+    width: 500px;              /* khung nhỏ gọn */
+}
+
+h2 {
+    text-align: center;
+    color: darkgreen;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.chem {
+    color: red;
+}
+
+.math {
+    color: brown;
+}

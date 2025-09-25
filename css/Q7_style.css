@@ -1,0 +1,11 @@
+table{
+    border-collapse: collapse;
+    border: 0.4mm solid red;
+    width: 19%;
+    background-color: aqua;
+}
+
+caption{
+    text-align: center;
+    color:rgb(134, 36, 36);
+}
