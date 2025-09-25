@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.main {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+/* Menu bên trái */
+.menu {
+    width: 230px;
+    background-color: #e0f0ff;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 5px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: navy;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+/* Nội dung bên phải */
+.content {
+    flex: 1;
+    border-left: 2px solid #ccc;
+}
+
+.content iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
