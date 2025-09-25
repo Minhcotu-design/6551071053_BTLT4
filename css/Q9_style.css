@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+}
+
+.title {
+    text-align: center;
+    color: #004080;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.container {
+    width: 550px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    background-color: #fffde6;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+input[type="text"], select, textarea {
+    width: 95%;
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: none;
+}
+
+.button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 6px 15px;
+    background-color: #eee;
+    border: 1px solid #888;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.success {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+}
+
+:target.success {
+    display: block;
+}
+
+/* Khung viền số lượng khách */
+.group-box {
+    border: 1px solid brown;
+    padding: 8px;
+    margin-top: 5px;
+}
+.group-box legend {
+    color: brown;
+    font-style: italic;
+}
